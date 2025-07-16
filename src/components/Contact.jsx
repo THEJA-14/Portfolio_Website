@@ -41,7 +41,7 @@ const Contact = () => {
           placeholder="Message For Me"
         ></textarea>
         <button className=" text-white border-2 rounded-md hover:bg-[#B2A4FF] hover:text-white px-4 my-8 mx-auto flex items-center duration-300 ">
-          Let's Collaborate
+          Let's Connect
         </button>
       </form>
       <div className=" py-3 flex flex-col items-center">
