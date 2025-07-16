@@ -73,7 +73,7 @@ const Navbar = () => {
        <ul>
         <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-600">
         <a className="flex justify-between items-center w-full text-gray-300"
-         href="www.linkedin.com/in/ravitheja-k-l-649150229">
+         href="https://www.linkedin.com/in/ravitheja-k-l-649150229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
           Linkedin <FaLinkedin size={30}/>
         </a>
         </li>
@@ -83,21 +83,26 @@ const Navbar = () => {
           GitHub <FaGithub size={30}/>
         </a>
         </li>
-        <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#809A6F]">
-        <a className="flex justify-between items-center w-full text-gray-300"
-         href="mailto:ravitheja123@gmail.com" target="_blank" rel="noopener noreferrer">
-          Email <HiOutlineMail size={30}/>
-        </a>
-        </li>
-        <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#8a3ab9]">
-        <a className="flex justify-between items-center w-full text-gray-300"
-         href="https://www.instagram.com/theja_14/profilecard/?igsh=Y3N2cmJsMGluaDJz">
-          Instagram <FaInstagram size={30}/>
-        </a>
-        </li>
-       </ul>
-      </div>
-    </div>
+        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#809A6F]">
+  <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=ravithejaravi746@gmail.com&su=Contact%20via%20Portfolio&body=Hi%20Ravitheja,"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex justify-between items-center w-full text-gray-300"
+>
+  Email <HiOutlineMail size={30} />
+</a>
+
+</li>
+  <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#8a3ab9]">
+    <a className="flex justify-between items-center w-full text-gray-300"
+        href="https://www.instagram.com/theja_14/profilecard/?igsh=Y3N2cmJsMGluaDJz">
+        Instagram <FaInstagram size={30}/>
+    </a>
+  </li>
+</ul>
+</div>
+</div>
   );
 };
 
