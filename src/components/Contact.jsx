@@ -47,7 +47,7 @@ const Contact = () => {
       </form>
       <div className=" py-3 flex flex-col items-center">
         <p  className="text-4xl font-bold border-b-4 border-[#B2A4FF]">Get Resume</p>
-       <a href={Resume} download="Ravitheja_KL_Resume.pdf" ><button className=" my-4 px-2 text-white border-2 rounded-md hover:bg-[#B2A4FF] duration-300">Download</button></a>
+       <a href={Resume}  download={Resume}><button className=" my-4 px-2 text-white border-2 rounded-md hover:bg-[#B2A4FF] duration-300">Download</button></a>
       </div>
     </div>
   );
