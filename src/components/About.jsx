@@ -14,10 +14,13 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className=" sm:text-right text-4xl font-bold">
-            <p>Hi, I'm Mr Bot nice to meet you. Please look around to see my work & all the technologies i've learned and a small description about my journey.</p>
+            <p>Hi, I'm Ravitheja K L, a final year Computer Science Engineering student at Sahyadri College of Engineering and Management, Mangalore. I’m passionate about crafting user-friendly digital solutions that solve real-world problems.
+With a strong foundation in full stack web development, I love transforming ideas into scalable and maintainable applications.
+</p>
           </div>
-          <div>
-            <p className=" text-2xl">Thank you for visiting my portfolio website. I made this website by my own by learning skills. I completed my B.tech in mechanical engineering & after that i started working in mechanical industry as a Design Engineer but i always had interest in Computer science but got into mechanical sector because of someone's bad advice but now i've decided to follow my interest & i started learning Front-end web development because i think this is the best way to start my journey. I am very passionate about this line of work & looking forward to become a Full-stack developer some day. I am a type of person who likes to learn new things & can give my 100% or more for my goals.</p>
+          <div className=" sm:text-left text-4xl font-bold">
+            <p>I specialize in full stack development with a focus on React.js, Tailwind CSS, Node.js, and PostgreSQL. I use Git, Postman, and Figma to streamline my workflow and follow clean code practices. I'm a quick learner who enjoys building efficient, user-focused solutions and working collaboratively in tech-driven environments.
+</p>
           </div>
         </div>
       </div>

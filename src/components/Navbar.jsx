@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className=" fixed w-full h-20 flex justify-between items-center p-4 bg-[#354259] text-zinc-300">
       <div>
-        <img src={Logo} alt="logo image" style={{ width: "80px" }} />
+        <img src={Logo} alt="logo" style={{ width: "80px" }} />
       </div>
       {/* menu */}
 
@@ -73,25 +73,25 @@ const Navbar = () => {
        <ul>
         <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-600">
         <a className="flex justify-between items-center w-full text-gray-300"
-         href="https://www.linkedin.com/login">
+         href="www.linkedin.com/in/ravitheja-k-l-649150229">
           Linkedin <FaLinkedin size={30}/>
         </a>
         </li>
         <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#51557E]">
         <a className="flex justify-between items-center w-full text-gray-300"
-         href="https://github.com/">
+         href="https://github.com/THEJA-14">
           GitHub <FaGithub size={30}/>
         </a>
         </li>
         <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#809A6F]">
         <a className="flex justify-between items-center w-full text-gray-300"
-         href="https://accounts.google.com/lifecycle/steps/signup/name?continue=https://mail.google.com/mail/e-11-f9a3947f40b05141793839a2de7d-bb1b176139af2db6c6dcb52bb968a8a42b88e126&dsh=S1527355678:1709370799838553&flowEntry=SignUp&flowName=GlifWebSignIn&service=mail&theme=glif&TL=ADg0xR2uvSNzcgly3J5OLDW7_uTiqQFnZhcCgI1XVgBmroeYRWk1ch5N0wjcdVtB">
+         href="mailto:ravitheja123@gmail.com" target="_blank" rel="noopener noreferrer">
           Email <HiOutlineMail size={30}/>
         </a>
         </li>
         <li className=" w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#8a3ab9]">
         <a className="flex justify-between items-center w-full text-gray-300"
-         href="https://www.instagram.com/?hl=en">
+         href="https://www.instagram.com/theja_14/profilecard/?igsh=Y3N2cmJsMGluaDJz">
           Instagram <FaInstagram size={30}/>
         </a>
         </li>
