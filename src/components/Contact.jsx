@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "src/assets/Resume - RAVITHEJA K L.pdf";
+import Resume from "../assets/resume.pdf";
 
 
 const Contact = () => {
